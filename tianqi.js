@@ -1,0 +1,36 @@
+/**
+ * Created by tangxu on 2017/6/14.
+ */
+var colorful = require("colorful");
+colorful.toxic(); //Let's posion the string object, just like colors does:'hello'.red
+var package = require("./package.json");
+
+// process对象提供一系列属性，用于返回系统信息。
+//
+// process.pid：当前进程的进程号。
+// process.version：Node的版本，比如v0.10.18。
+// process.platform：当前系统平台，比如Linux。
+// process.title：默认值为“node”，可以自定义该值。
+// process.argv：当前进程的命令行参数数组。
+// process.env：指向当前shell的环境变量，比如process.env.HOME。
+// process.execPath：运行当前进程的可执行文件的绝对路径。
+// process.stdout：指向标准输出。
+// process.stdin：指向标准输入。
+// process.stderr：指向标准错误
+
+/*
+例如node app.js some param
+process.argv是返回的一个数组，使用process.argv[2]获取的就是下表是2的some。
+process.argv.slice首先需要理解slice，process.argv.slice(2)获取的就是下表从2开始拷贝出来的一个数组['some', 'param']。
+*/
+var param = process.argv[2];
+if(process.argv.length > 3 || (param && param.toUpperCase() == "-H")){//如果没有参数，则输出tianqi的版本信息和使用示例。
+  console.log('tianqi ~ ' + package.version.green);
+  console.log(package.description.grey);
+  console.log("  $ ".cyan + "tianqi 北京");
+  console.log("  $ ".cyan + "tianqi 上海");
+  return;
+}
+
+var tianqi = require("./index");//如果有参数，则调用index.js的函数
+tianqi(param);

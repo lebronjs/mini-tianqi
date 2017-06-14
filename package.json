@@ -1,0 +1,16 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "node查询天气",
+  "main": "tianqi.js",
+  "scripts": {
+    "tianqi": "./tianqi"
+  },
+  "keywords": [],
+  "author": "tangxu",
+  "license": "ISC",
+  "dependencies": {
+    "colorful": "^2.1.0",
+    "request": "^2.81.0"
+  }
+}
