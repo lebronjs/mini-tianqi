@@ -1,11 +1,11 @@
 {
   "name": "mini-tianqi",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "node查询简易天气",
   "author": "tangxu",
-  "main": "./bin/mini-tianqi.js",
+  "main": "./bin/mini-tianqi",
   "bin": {
-    "mini-tianqi": "./bin/mini-tianqi.js"
+    "mini-tianqi": "./bin/mini-tianqi"
   },
   "keywords": [
     "tianqi",

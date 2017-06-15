@@ -1,6 +1,9 @@
 /**
  * Created by tangxu on 2017/6/14.
  */
+
+#!/usr/bin/env node
+
 var colorful = require("colorful");
 colorful.toxic(); //Let's posion the string object, just like colors does:'hello'.red
 var package = require("../package.json");
