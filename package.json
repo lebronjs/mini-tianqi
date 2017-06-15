@@ -1,12 +1,9 @@
 {
-  "name": "weather",
+  "name": "mini-tianqi",
   "version": "1.0.0",
-  "description": "node查询天气",
-  "main": "tianqi.js",
-  "scripts": {
-    "tianqi": "./tianqi"
-  },
-  "keywords": [],
+  "description": "node查询简易天气",
+  "main": "mini-tianqi.js",
+  "keywords": ["tianqi","mini-tinaqi","天气","迷你天气"],
   "author": "tangxu",
   "license": "ISC",
   "dependencies": {

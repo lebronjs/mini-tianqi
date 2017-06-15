@@ -27,8 +27,8 @@ var param = process.argv[2];
 if(process.argv.length > 3 || (param && param.toUpperCase() == "-H")){//如果没有参数，则输出tianqi的版本信息和使用示例。
   console.log('tianqi ~ ' + package.version.green);
   console.log(package.description.grey);
-  console.log("  $ ".cyan + "tianqi 北京");
-  console.log("  $ ".cyan + "tianqi 上海");
+  console.log("  $ ".cyan + "mini-tianqi 上海");
+  console.log("  $ ".cyan + "mini-tianqi shanghai");
   return;
 }
 
