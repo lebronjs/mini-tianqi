@@ -2,7 +2,7 @@
 # 迷你天气
 
 [![NPM version](https://img.shields.io/npm/v/mini-tianqi.svg?style=flat)](https://npmjs.org/package/mini-tianqi)
-[![Build Status](https://travis-ci.org/tangxu2424/tianqi.svg?branch=master)](https://travis-ci.org/smallyard/tianqi)
+[![Build Status](https://travis-ci.org/tangxu2424/mini-tianqi.svg?branch=master)](https://travis-ci.org/tangxu2424/mini-tianqi)
 [![NPM downloads](http://img.shields.io/npm/dm/mini-tianqi.svg?style=flat)](https://npmjs.org/package/mini-tianqi)
 
 一个简易的命令行天气查询工具
