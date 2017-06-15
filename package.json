@@ -5,7 +5,7 @@
   "author": "tangxu",
   "main": "./bin/mini-tianqi.js",
   "bin": {
-    "mini-tianqi": "./bin/tianqi"
+    "mini-tianqi": "./bin/mini-tianqi"
   },
   "keywords": [
     "tianqi",
