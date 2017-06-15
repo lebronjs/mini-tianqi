@@ -1,6 +1,6 @@
 {
   "name": "mini-tianqi",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "node查询简易天气",
   "author": "tangxu",
   "main": "./bin/mini-tianqi",
