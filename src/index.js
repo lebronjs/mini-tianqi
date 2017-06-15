@@ -2,7 +2,7 @@
  * Created by tangxu on 2017/6/14.
  */
 var request = require("request");
-var config = require("./config");
+var config = require("../config");
 var print = require("./print");
 
 module.exports = function (word) {

@@ -1,4 +1,5 @@
 # mini-tainqi
+# 迷你天气
 
 [![NPM version](https://img.shields.io/npm/v/mini-tianqi.svg?style=flat)](https://npmjs.org/package/mini-tianqi)
 [![Build Status](https://travis-ci.org/tangxu2424/tianqi.svg?branch=master)](https://travis-ci.org/smallyard/tianqi)
@@ -29,8 +30,8 @@ $ mini-tianqi
 #### 2. Query weather by city name
 
 ```bash
-$ tianqi 上海
-$ tianqi shanghai
+$ mini-tianqi 上海
+$ mini-tianqi shanghai
 ```
 
 ## Postscript:

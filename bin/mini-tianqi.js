@@ -3,7 +3,7 @@
  */
 var colorful = require("colorful");
 colorful.toxic(); //Let's posion the string object, just like colors does:'hello'.red
-var package = require("./package.json");
+var package = require("../package.json");
 
 // process对象提供一系列属性，用于返回系统信息。
 //
@@ -32,5 +32,5 @@ if(process.argv.length > 3 || (param && param.toUpperCase() == "-H")){//如果�
   return;
 }
 
-var tianqi = require("./index");//如果有参数，则调用index.js的函数
+var tianqi = require("../src/index");//如果有参数，则调用index.js的函数
 tianqi(param);
