@@ -35,9 +35,7 @@ $ mini-tianqi shanghai
 ```
 
 ## Postscript:
-- 网上参考了一个例子，然而那个例子的百度天气接口貌似用不了了
+- 网上参考了smallyard的《基于nodejs的终端天气查询》例子，然而那个例子的百度天气接口貌似用不了了
 - 所以我用了心知天气的接口，[建议大家自己注册一个API密钥](https://www.seniverse.com/signup/)
 - 此迷你命令行天气查询用了我的API密钥，大家记得在config文件自行修改
 - 由于用的是免费版的，天气预报（3天）
-
-[参考：smallyard的基于nodejs的终端天气查询](http://www.cnblogs.com/smallyard/p/4943648.html)

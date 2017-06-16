@@ -22,14 +22,18 @@ var package = require("../package.json");
 process.argv是返回的一个数组，使用process.argv[2]获取的就是下表是2的some。
 process.argv.slice首先需要理解slice，process.argv.slice(2)获取的就是下表从2开始拷贝出来的一个数组['some', 'param']。
 */
+//node mini-tianqi -h
+//node mini-tianqi abcd mdzz
 var param = process.argv[2];
-if(process.argv.length > 3 || (param && param.toUpperCase() == "-H")){//如果没有参数，则输出tianqi的版本信息和使用示例。
+if(process.argv.length > 3 || (param && param.toUpperCase() == "-H")){
   console.log('tianqi ~ ' + package.version.green);
   console.log(package.description.grey);
   console.log("  $ ".cyan + "mini-tianqi 上海");
   console.log("  $ ".cyan + "mini-tianqi shanghai");
   return;
 }
-
-var tianqi = require("../src/index");//如果有参数，则调用index.js的函数
+//如果有城市名这个参数，或者没有城市名这个参数则调用index.js的函数
+//node mini-tianqi shanghai
+//node mini-tianqi
+var tianqi = require("../src/index");
 tianqi(param);
