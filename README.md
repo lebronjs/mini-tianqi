@@ -1,4 +1,4 @@
-# mini-tainqi
+# mini-tianqi
 # 迷你天气
 
 [![NPM version](https://img.shields.io/npm/v/mini-tianqi.svg?style=flat)](https://npmjs.org/package/mini-tianqi)
