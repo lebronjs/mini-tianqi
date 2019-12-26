@@ -8,8 +8,8 @@
 一个简易的命令行天气查询工具
 A mini weather tool in your command line.
 
-![image](http://img0.ph.126.net/CaQUwqKjy_gzcYhvzzwCcw==/6632133192469999113.png)
-![image](http://img2.ph.126.net/ViOPDbnUfkAAccFYFBs68Q==/6632094709563029858.png)
+![img](https://user-images.githubusercontent.com/17759321/71463089-40bd3f00-27f0-11ea-9914-3cbed57e3bb2.png)
+![img](https://user-images.githubusercontent.com/17759321/71463246-b0332e80-27f0-11ea-90a8-54e3a7d643cd.png)
 
 ---
 
