@@ -19,7 +19,7 @@
 	"license": "ISC",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tangxu2424/mini-tianqi.git"
+		"url": "https://github.com/lebronjs/mini-tianqi.git"
 	},
 	"dependencies": {
 		"colorful": "^2.1.0",
