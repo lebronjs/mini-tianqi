@@ -17,9 +17,6 @@
 		"node": ">=4.0.0"
 	},
 	"license": "ISC",
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/"
-	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/tangxu2424/mini-tianqi.git"
